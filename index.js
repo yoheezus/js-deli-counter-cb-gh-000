@@ -10,7 +10,7 @@ function nowServing(array) {
         let currentlyServing = array.shift(0);
         return `Currently serving ${currentlyServing}.`;
     }
-}
+};
 
 function currentLine(array) {
     if (array.length === 0) {
